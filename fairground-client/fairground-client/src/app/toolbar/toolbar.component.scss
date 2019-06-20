@@ -1,0 +1,50 @@
+
+
+
+mat-toolbar {
+    // @include border-tool();
+    background-color: black;
+    overflow: hidden;
+    // margin: auto;
+    margin-top: 10px;
+    padding: 2em;
+
+    .toolbar {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+        .page-header {
+            text-align: center;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-row-gap: .5em;
+       
+        }
+    }
+}
+
+.navigation {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    .searchbar {
+        input {
+            border-radius: 25px;
+
+        }
+    }
+}
+
+.nav-articles {
+    
+    div {
+        display: inline;
+        padding: 3em;
+    }
+}
+
+.searchbar {
+
+    grid-column-end: 4;
+}

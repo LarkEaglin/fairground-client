@@ -1,0 +1,20 @@
+@mixin border-tool {
+    border-style: double;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: red;
+}
+
+.wrapper {
+    padding: 3em;
+}
+
+.featured-content {
+    @include border-tool();
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    
+}

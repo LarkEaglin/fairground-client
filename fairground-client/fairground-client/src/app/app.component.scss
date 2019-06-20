@@ -1,0 +1,27 @@
+
+
+.body-wrapper {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    padding: 2px;
+
+    
+}
+#toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    margin-bottom: 05em;
+    // margin-top: 10px;
+    width: 100%;
+}
+
+#footer {
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}

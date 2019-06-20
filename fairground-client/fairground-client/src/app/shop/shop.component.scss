@@ -1,0 +1,43 @@
+
+
+.shop-wrapper {
+    // margin: 10px;
+    // @include border-tool();
+    padding: 2em;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.shopping-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    // @include border-tool();
+}
+
+.item-port {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    text-align: center;
+   
+    // @include border-tool();
+    
+
+    img {
+        height: 16em;
+        
+        border-radius: .5em;
+        
+    }
+
+    .item-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // @include border-tool();
+        padding: 1em;
+        max-height: 1em;
+    }
+}

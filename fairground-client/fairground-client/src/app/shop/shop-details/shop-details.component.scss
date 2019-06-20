@@ -1,0 +1,62 @@
+@mixin border-tool {
+    border-style: double;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: red;
+}
+
+.wrapper {
+   margin: 1em;
+   padding: 1em;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+}
+
+.photo {
+    @include border-tool(); 
+    width: 350px;
+    height: 350px;
+    padding: 1em;
+    margin: .5em;
+}
+
+.details {
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    
+
+    .default {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 1.5em;
+
+        .item-name{
+            text-align: start;
+        }
+        .cost{
+            text-align: end;
+        }
+    }
+}
+
+.secondary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: auto;
+    // @include border-tool();
+    
+    .choice {
+        // @include border-tool();
+        // width: 1.5em;
+        // height: 1.5em;
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+.item-description {
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+#wrapper {
+    background-color: black;
+    overflow: hidden;
+    padding: .5em;
+    margin: auto;
+    height: 2em;
+    width: 98%;
+    // @include border-tool();
+    
+}
+
+#footer-items {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: .5em;
+
+    
+}
+
+#social-handles {
+    text-align: end;
+    // @include border-tool();
+   
+  
+
+    div {        
+        // @include border-tool();
+        display: inline;
+        padding-right: 5em;
+        
+        
+        
+    }
+    
+}
+#cart-section {
+    grid-column-end: 5;
+ 
+}

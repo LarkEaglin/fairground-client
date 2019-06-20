@@ -1,0 +1,48 @@
+
+// Below is sample code for a Masonry style Photo grid
+.gallery-wrapper {
+
+    // @include border-tool();
+    padding: 0;
+    margin: 0;
+    
+    .header {
+        padding: .5em;
+        height: .5em;
+        text-align: center;
+    }
+}
+
+h3{
+    // @include border-tool();
+    margin: 0;
+    padding: 0;
+}
+.inner-gallery-grid-box {
+    
+    width: 1000px;
+    margin: auto;
+    padding: .5em;
+    columns: 3;
+    gap: 30px;
+
+    .image-box {
+
+        // @include border-tool();
+        text-align: center;
+        margin: 5px auto auto;
+        width: 100%;
+        padding: 1em;
+        overflow: hidden;
+        break-inside: avoid;
+
+        img {
+            max-width: 100%;
+            border-radius: .5em;
+        }
+
+    }
+}
+
+
+
